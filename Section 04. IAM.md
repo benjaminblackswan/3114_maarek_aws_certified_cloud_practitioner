@@ -38,9 +38,40 @@ add a key-value pair
 
 <img width="1428" height="626" alt="image" src="https://github.com/user-attachments/assets/93a66e11-7c74-40b7-8590-fa9a84c38715" />
 
+To see which policy is attached to a User Group
+
+<img width="1324" height="595" alt="image" src="https://github.com/user-attachments/assets/b8d08cb4-0f18-4030-8347-36e5c53685ff" />
+
+The policy of a user should be the same as a group the user is in.
+
+<img width="1253" height="248" alt="image" src="https://github.com/user-attachments/assets/99b0fca7-581e-448e-b32b-3289e2f3d2b0" />
 
 
+edit your AWS account Alias to make your IAM users sign in more easily
 
+<img width="458" height="277" alt="image" src="https://github.com/user-attachments/assets/8a21cc72-193b-45d6-8513-c70ec61a8cf0" />
+
+This will then update the sign in URL with the updated account alias
+
+https://benjaminblackswan.signin.aws.amazon.com/console
+
+paste this in a new browser, the account alias will already be in the field, sign in with the Stephane IAM account you just created.
+
+<img width="398" height="551" alt="image" src="https://github.com/user-attachments/assets/b57634ca-3b4a-47ec-87eb-62a04ec9e873" />
+
+
+if you look at the top right, IAM users have IAM user under the Account ID, root user does not.
+
+<img width="449" height="466" alt="image" src="https://github.com/user-attachments/assets/6bc87005-6202-403a-b5fd-71cf4cb04608" />
+
+## 16. AWS Console Simultaneous Sign-in
+
+multi-session support allows you to sign into multiple AWS accounts on the same browser.
+
+https://aws.amazon.com/about-aws/whats-new/2025/01/aws-management-console-simultaneous-sign-in-multiple-accounts/
+
+
+## 17. IAM Policies
 
 
 
