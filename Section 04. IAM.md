@@ -228,23 +228,53 @@ if we remove user *stephane*'s permission, and the run same code, we get
 <img width="1156" height="98" alt="image" src="https://github.com/user-attachments/assets/c47cabfc-4d43-4ec7-9506-6806f3513c22" />
 
 
+# 26. AWS CloudShell
+
+https://docs.aws.amazon.com/cloudshell/latest/userguide/supported-aws-regions.html
+
+<img width="459" height="181" alt="image" src="https://github.com/user-attachments/assets/837538a2-384b-431e-9b42-14fdc0ab430d" />
+
+`aws --version`
+
+<img width="831" height="181" alt="image" src="https://github.com/user-attachments/assets/37ea0956-a8d7-4252-afb2-b77fce50f03c" />
+
+if frozen
+
+<img width="385" height="357" alt="image" src="https://github.com/user-attachments/assets/dba37f3e-d0f5-49bf-92e9-dc26b3064f92" />
+
+advantage of cloudshell over cli is that you can download and upload files.
 
 
+# 27. IAM Roles
+
+<img width="1005" height="430" alt="image" src="https://github.com/user-attachments/assets/99c9507e-357e-42cd-8ef2-95b16ba36324" />
+
+<img width="935" height="350" alt="image" src="https://github.com/user-attachments/assets/9963d2ce-72c7-4743-b6f1-365d0fedd1f4" />
 
 
+Choose EC2 for service
+
+then choose EC2 for use case
+
+add IAMReadOnlyAccess policy
 
 
+<img width="1014" height="665" alt="image" src="https://github.com/user-attachments/assets/7ab53a13-0873-43b3-b10d-ca68150284bd" />
+
+create the role.
+
+<img width="1207" height="623" alt="image" src="https://github.com/user-attachments/assets/2cafceed-0940-412e-8ffc-af543a340fe4" />
 
 
+# 29. IAM Security Tools
+1. IAM Credentials Report for all accounts
+2. IAM Access Advisor at user level
 
+<img width="807" height="768" alt="image" src="https://github.com/user-attachments/assets/f58c65e4-94ba-48aa-b3fd-bb78e42de086" />
 
+note: Access Advisor is now called **Last Accessed**
 
-
-
-
-
-
-
+<img width="1289" height="697" alt="image" src="https://github.com/user-attachments/assets/4ae95e7f-3c50-4980-a188-1b2d1f50c48d" />
 
 
 
