@@ -257,7 +257,8 @@ Lets add http on port 80 inbound rule back to sg-051b4c80aae4cbd2d, now `http://
 
 # 40. SSH Overview
 
-<img width="1176" height="670" alt="image" src="https://github.com/user-attachments/assets/e44b51dd-da48-4dab-af80-61f991608b70" />
+<img width="680" height="166" alt="image" src="https://github.com/user-attachments/assets/b7387050-03b6-4aae-b9d5-901f7f70b26b" />
+
 
 # 42. How to SSH using Putty (for all versions of Windows)
 
@@ -306,14 +307,82 @@ To test whether you have SSH on your computer, type in SSH into cmd or powershel
 
 first navigate to the directorary where the .pem file is located.. 
 
-`cd .\OneDrive\Onedrive\Self-Studies\3114_Maarek, Ultimate AWS Certified Cloud Practitioner CLF-C02`
+`cd "C:\Users\benja\OneDrive\Onedrive\Self-Studies\3114_Maarek, Ultimate AWS Certified Cloud Practitioner CLF-C02"`
+
+**Note you must put the path in "" because it contain spaces**
+
+then `ls` to see all the files
+
+<img width="987" height="187" alt="image" src="https://github.com/user-attachments/assets/9b64841a-5e52-4cde-a50e-2754d9c303b1" />
+
+`ssh -i .\EC2Tutorialkeypair.pem ec2-user@18.232.173.135`
+
+<img width="1248" height="342" alt="image" src="https://github.com/user-attachments/assets/099e4d43-0b17-4aab-8be8-2760793e0275" />
+
+if you get a security issue, go to the  .pem file and property > security
+
+change owner to yourself
 
 
-
-C:\Users\benja\OneDrive\Onedrive\Self-Studies\3114_Maarek, Ultimate AWS Certified Cloud Practitioner CLF-C02
-
+<img width="672" height="393" alt="image" src="https://github.com/user-attachments/assets/ec0dac0f-f9bf-4eaa-84fc-6a4e93122280" />
 
 
+# 45. EC2 Instance Connect
+
+EC2 Instance Connect is a browser based terminal that connect to your EC2
+
+<img width="1432" height="296" alt="image" src="https://github.com/user-attachments/assets/19f19e0a-4fd8-4e0a-a8f0-a041b0dd853d" />
+
+
+<img width="1719" height="671" alt="image" src="https://github.com/user-attachments/assets/eab47cf3-e6a8-45ea-9949-2996c68d7378" />
+
+# 46. EC2 Instance Roles Demo
+
+Putting access key or other credential into SSH is really bad idea, so we use roles function.
+
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/iam-roles-for-amazon-ec2.html
+
+The steps are
+
+1. Create an IAM role.
+2. Define which accounts or AWS services can assume the role.
+3. Define which API actions and resources the application can use after assuming the role.
+4. Specify the role when you launch your instance, or attach the role to an existing instance.
+5. Have the application retrieve a set of temporary credentials and use them.
+
+## Step 1: Create an IAM role.
+
+In the IAM console, go to Roles on the left panel
+
+<img width="284" height="251" alt="image" src="https://github.com/user-attachments/assets/574bffed-448f-4f33-a37d-a35f8b12e5b6" />
+
+there is a *DemoRoleForEC2*
+
+<img width="361" height="216" alt="image" src="https://github.com/user-attachments/assets/99db27dc-284e-4989-9e7b-1357de759222" />
+
+click on it and see the only policy attached to it *IAMReadOnlyAccess*
+
+<img width="1283" height="251" alt="image" src="https://github.com/user-attachments/assets/9d41a1c9-e50d-4559-b4e4-4c3423d0208c" />
+
+as you can see, in our case, the role was already created with a policy attached to it. 
+
+## Step 2: Define which accounts or AWS services can assume the role.
+
+go to instance, action > modify IAM roles. and attached the *DemoRoleForEC2* role.
+
+<img width="1324" height="284" alt="image" src="https://github.com/user-attachments/assets/fff052cf-3061-4b51-9fd7-bbbc758c5c43" />
+
+
+under the **Security** tab, see what roles EC2 currently have.
+
+<img width="1430" height="236" alt="image" src="https://github.com/user-attachments/assets/f15174c9-d5b0-4f2b-8f46-e996bb1ca172" />
+
+Now if you run `aws iam list-users` in the ec2 via powershell, you should see the list of users
+
+<img width="529" height="409" alt="image" src="https://github.com/user-attachments/assets/75c96f43-8e7c-4b8e-b1fb-59ef7dd6282c" />
+
+
+# 47. EC2 Instance Purchasing Options
 
 
 
