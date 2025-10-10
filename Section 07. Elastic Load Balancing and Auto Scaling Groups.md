@@ -166,6 +166,11 @@ under the ASG's activity history, the 'dab' instance was disconnected and new in
    - scheduled scaling: condition based on time
    - predictive scaling: using ML
   
+
+
+
+# Quiz 5: ELB & ASG Quiz
+  
 <img width="837" height="429" alt="image" src="https://github.com/user-attachments/assets/8046dff7-8e89-4943-a7d5-a055ab123447" />
 
 <img width="833" height="409" alt="image" src="https://github.com/user-attachments/assets/830f271f-19b2-4c96-9f2e-caa1028ca96f" />
