@@ -90,14 +90,14 @@ go to LP > Load balancing > Target Groups
 
 # 67. Auto Scaling Groups (ASG) Overview
 
-
 <img width="650" height="599" alt="image" src="https://github.com/user-attachments/assets/56922093-e885-4096-9204-5a810f143b8e" />
+
+# 68. Auto Scaling Groups (ASG) Hands On
 
 1. terminate the two previous instances.
 2. LP > Auto scaling groups (ASG)
 3. Launch template
-
-4. Create Launch template
+5. **Create Launch template** called *demo-launch-template*
 
 The **Launch Template** is a template for launching EC2 instances in the auto scaling, so the format is similar to creating an EC2 instance.
 
@@ -114,47 +114,75 @@ systemctl enable httpd
 echo "<h1>Hello World from $(hostname -f)</h1>" > /var/www/html/index.html
 ```
 
-Create the launch template
+In network: choose default VPC and all the Az used by the EC2
+
+Health checks: Turn on ELB health checks
+
+group size: 2
+
+**Scaling**: min 1 max 4
+
+instance maintenance policy: no policy
+
+additional capacity settings: default
+
+Create ASG
+
+The ASG automatically provisioned two instances
+
+<img width="1351" height="612" alt="image" src="https://github.com/user-attachments/assets/2ed5774e-829e-44de-b065-8c8125069eae" />
+
+The load balancer automatically assigns the two instances created by the asg as the targets
+
+<img width="1515" height="1022" alt="image" src="https://github.com/user-attachments/assets/d52d42c6-a830-40fb-8a2f-3110f5e39eb9" />
+
+pasting the load balancer DNS name into browser `http://demo-alb-929360010.us-east-1.elb.amazonaws.com/`
+
+<img width="758" height="92" alt="image" src="https://github.com/user-attachments/assets/2e10c515-42f6-4b56-a4f7-cdb4fa5baf13" />
 
 
+## Termination test
+
+<img width="383" height="104" alt="image" src="https://github.com/user-attachments/assets/64323f2f-d7e5-41d7-918c-a38530e245a2" />
+
+Currently I have two instances, lets terminate the one that ends in `dab`
 
 
+<img width="738" height="209" alt="image" src="https://github.com/user-attachments/assets/61f903a5-5fe0-49e3-850f-77308221b2ed" />
+
+under the ASG's activity history, the 'dab' instance was disconnected and new instances was automatically launched.
+
+<img width="1440" height="599" alt="image" src="https://github.com/user-attachments/assets/eefedd9a-bc90-4233-9a20-58c6ce639d65" />
+
+<img width="1425" height="230" alt="image" src="https://github.com/user-attachments/assets/fed0547d-41f2-4dbe-aef0-2bcd20a4cd35" />
 
 
+# 69. Auto Scaling Groups (ASG) Strategies
 
+1. manual scaling
+2. dynamic scaling
+   - simple/step (dynamic) scaling: this is basically if then statement
+   - target tracking scaling: condition based on a target, eg 40% cpu usage
+   - scheduled scaling: condition based on time
+   - predictive scaling: using ML
+  
+<img width="837" height="429" alt="image" src="https://github.com/user-attachments/assets/8046dff7-8e89-4943-a7d5-a055ab123447" />
 
+<img width="833" height="409" alt="image" src="https://github.com/user-attachments/assets/830f271f-19b2-4c96-9f2e-caa1028ca96f" />
 
+<img width="839" height="458" alt="image" src="https://github.com/user-attachments/assets/4010810c-9946-4f2d-9f32-7defc3f8fb05" />
 
+<img width="825" height="493" alt="image" src="https://github.com/user-attachments/assets/b2d0e11c-0829-4b99-afee-6f23a2ca5891" />
 
+<img width="831" height="454" alt="image" src="https://github.com/user-attachments/assets/dec75e3f-11ce-43db-9815-d2151bccebab" />
 
+<img width="822" height="450" alt="image" src="https://github.com/user-attachments/assets/367955d1-fdb5-4fbe-99c1-760d383def56" />
 
+<img width="837" height="463" alt="image" src="https://github.com/user-attachments/assets/b3e7ab1c-df5e-4cb4-b4cd-6cf45db192bd" />
 
+<img width="831" height="458" alt="image" src="https://github.com/user-attachments/assets/2e441cc0-3f32-41c8-9a23-c327bd70b810" />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<img width="832" height="436" alt="image" src="https://github.com/user-attachments/assets/dd936b55-338a-46be-a703-bc707ae72a93" />
 
 
 
