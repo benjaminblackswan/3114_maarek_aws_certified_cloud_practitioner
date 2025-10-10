@@ -2,11 +2,13 @@
 
 ## Monitoring
 
-In Root: to allow IAM users access to billing information, you must make sure it is activivated in **Billing and Cost Managemnet**
+In Root account: to allow IAM users access to billing information, you must make sure it is activivated in **Billing and Cost Managemnet**
 
 <img width="320" height="408" alt="image" src="https://github.com/user-attachments/assets/0310c52d-360c-4ba0-8e81-40ed66f74176" />
 
 <img width="1449" height="151" alt="image" src="https://github.com/user-attachments/assets/4a8da301-d5d7-483c-8eb4-6b7d008fca9e" />
+
+## Understand Billing
 
 Go to **Bills**
 
@@ -22,7 +24,7 @@ Under Cost and Usage Analysis, you can see information about **Free Tier**
 
 <img width="1498" height="723" alt="image" src="https://github.com/user-attachments/assets/45b3f255-6995-4e6c-b2b5-0e8b25964c13" />
 
-## Budget
+## Set up Budget
 
 To create a Budget, go to Budgets and Planning > Budgets
 
@@ -51,7 +53,7 @@ Create a second budget using monthly template with $10 budget
 
 # 35. EC2 Basics
 
-EC2 is a VM offering from aws.
+EC2 is a VM offering from AWS.
 
 you must choose compute, memory, network, storage etc, these are determined by choosing the appropriate EC2 **instance type**.
 
@@ -383,6 +385,56 @@ Now if you run `aws iam list-users` in the ec2 via powershell, you should see th
 
 
 # 47. EC2 Instance Purchasing Options
+
+There are seven purchasing options for EC2.
+
+1. On-Demand Instances – Pay, by the second, for the instances that you launch.
+2. Savings Plans – Reduce your Amazon EC2 costs by making a commitment to a consistent amount of usage, in USD per hour, for a term of 1 or 3 years.
+3. Reserved Instances – Reduce your Amazon EC2 costs by making a commitment to a consistent instance configuration, including instance type and Region, for a term of 1 or 3 years.
+4. Spot Instances – Request unused EC2 instances, which can reduce your Amazon EC2 costs significantly.
+5. Dedicated Hosts – Pay for a physical host that is fully dedicated to running your instances, and bring your existing per-socket, per-core, or per-VM software licenses to reduce costs.
+6. Dedicated Instances – Pay, by the hour, for instances that run on single-tenant hardware.
+7. Capacity Reservations – Reserve capacity for your EC2 instances in a specific Availability Zone.
+
+<img width="326" height="620" alt="image" src="https://github.com/user-attachments/assets/c376663f-050d-4706-978a-8f27e1e5c31d" />
+
+<img width="838" height="714" alt="image" src="https://github.com/user-attachments/assets/9406edd6-e743-457c-84a5-f0edf12aa219" />
+
+
+# Quiz 3: EC2 Quiz
+
+<img width="835" height="473" alt="image" src="https://github.com/user-attachments/assets/e81e3d6e-f9e6-4c79-96ca-99f923f2dd9a" />
+
+<img width="829" height="433" alt="image" src="https://github.com/user-attachments/assets/37102cef-f9fa-4d54-9d30-12cf4420f4c7" />
+
+<img width="831" height="419" alt="image" src="https://github.com/user-attachments/assets/cbfcc18b-e29a-445d-b845-f486f1ac2eec" />
+
+<img width="833" height="437" alt="image" src="https://github.com/user-attachments/assets/bf8a72cf-cbb8-4393-9b91-9d2470898988" />
+
+<img width="831" height="518" alt="image" src="https://github.com/user-attachments/assets/1f807199-b29f-440f-ab07-1543cf03f087" />
+
+Compute Optimized = powerful CPU
+
+Accelerated Computing = Powerful GPU
+
+<img width="831" height="425" alt="image" src="https://github.com/user-attachments/assets/fd00b61a-7df5-4060-9a58-83c9647d4144" />
+
+<img width="843" height="459" alt="image" src="https://github.com/user-attachments/assets/c5dc6645-25fe-4f55-bd42-0c792ece1322" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
