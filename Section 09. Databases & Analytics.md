@@ -160,35 +160,63 @@ Elastic MapReduce for creating Hadoop clusters from EC2 instances.
 
 AWS implementation of MongoDB
 
+## 106. Amazon Neptune Overview
+
+Used for graph database
+
+## 107. Amazon Timestream Overview
+
+For time series database
+
+## 108. Amazon Managed Blockchain (AMB) Overview
+making blockchain
+
+## 109 AWS Glue
+
+fully managed Serverless service for ETL.
+
+<img width="595" height="230" alt="image" src="https://github.com/user-attachments/assets/4ff9b977-b4e0-43ef-a71e-6548cdb7431e" />
+
+## 110. Data Migration Service (DMS) Overview
+
+for data migration into AWS
+
+<img width="157" height="461" alt="image" src="https://github.com/user-attachments/assets/2632000f-211c-4be4-b94a-421fc59c8735" />
+
+# Databases & Analytics Quiz
+
+<img width="843" height="485" alt="image" src="https://github.com/user-attachments/assets/24474efd-a8f7-4db6-9c2c-ce95c58dcf2c" />
+
+<img width="857" height="439" alt="image" src="https://github.com/user-attachments/assets/47d0bd24-fbe4-4747-a433-279faa302c00" />
+
+<img width="810" height="598" alt="image" src="https://github.com/user-attachments/assets/990e3874-a21f-49ea-a26b-f7a93d8f6ca9" />
+
+<img width="837" height="454" alt="image" src="https://github.com/user-attachments/assets/2d4e9315-16fc-4148-9085-ced31da8c1d7" />
+
+<img width="832" height="451" alt="image" src="https://github.com/user-attachments/assets/2fd2c257-ad75-475b-a750-279f2087b7cd" />
+
+<img width="830" height="479" alt="image" src="https://github.com/user-attachments/assets/0d2b606e-bc88-4d5f-8425-e99022bae2f5" />
+
+<img width="831" height="460" alt="image" src="https://github.com/user-attachments/assets/55276333-2233-4995-9cbe-7d30a4c89cdc" />
+
+<img width="831" height="484" alt="image" src="https://github.com/user-attachments/assets/4abf479c-6b88-4e2f-b633-5d1957967858" />
+
+<img width="837" height="522" alt="image" src="https://github.com/user-attachments/assets/6f18a210-3eff-4afb-80f4-2b6d042792e0" />
+
+<img width="841" height="434" alt="image" src="https://github.com/user-attachments/assets/fe04d8de-b21f-42f1-b5a9-3de41d19a54e" />
+
+<img width="830" height="483" alt="image" src="https://github.com/user-attachments/assets/f23dea8f-d268-42d3-aca7-f1efff78ef1b" />
 
 
+<img width="837" height="490" alt="image" src="https://github.com/user-attachments/assets/c9f58df1-0407-4f6d-a768-0f650d8bba2a" />
 
+<img width="830" height="498" alt="image" src="https://github.com/user-attachments/assets/3472cf4f-f7fc-459b-9066-57911b7c5382" />
 
+<img width="827" height="487" alt="image" src="https://github.com/user-attachments/assets/f3dc6dc7-cf90-4727-874e-4a0af7527372" />
 
+<img width="836" height="484" alt="image" src="https://github.com/user-attachments/assets/d6767dbe-ba35-4f34-ab38-723b1a10d65e" />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<img width="842" height="342" alt="image" src="https://github.com/user-attachments/assets/28b9d144-c685-4dd8-831c-e0327a900f8c" />
 
 
 
