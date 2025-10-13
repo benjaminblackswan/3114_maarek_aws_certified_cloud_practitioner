@@ -43,6 +43,7 @@ meaning that there is no need for dev to maintain servers
 
 * pay per request and compute time
 * event-driven: functions gets invoked when needed
+* up to 15 minutes runtime
 
 Lambda example 1: create a thumbnail for images uploaded to S3
 
@@ -107,70 +108,78 @@ and test again, the Lambda function will fail
 
 <img width="717" height="688" alt="image" src="https://github.com/user-attachments/assets/54c84a9f-1e6b-447d-944f-646f175ea482" />
 
-Configuration > Edit
+### Monitor tab
 
-<img width="1320" height="224" alt="image" src="https://github.com/user-attachments/assets/69db68ea-a3e7-4392-8dcc-063ae146d9a0" />
+<img width="237" height="53" alt="image" src="https://github.com/user-attachments/assets/54152c3b-8e68-4677-9420-296da901d18d" />
 
-view the role
+here you can see all the logs of the two events you ran
 
-<img width="1580" height="789" alt="image" src="https://github.com/user-attachments/assets/ea693d56-dce4-4937-84cc-d1ce0a05f2d5" />
-
-Click no the Policy name
-
-<img width="728" height="257" alt="image" src="https://github.com/user-attachments/assets/570294a0-7b7e-4f6e-bd46-422cf5174c66" />
-
-you can see what services are allowed in this policy
-
-<img width="1056" height="256" alt="image" src="https://github.com/user-attachments/assets/5c65ab8f-fd00-4b41-b689-7e9f9f4b0221" />
+<img width="1318" height="222" alt="image" src="https://github.com/user-attachments/assets/574870f2-b18d-4a18-970b-cbf27d3ed3c5" />
 
 
+### Configuration tab
 
+#### General Configuration
 
+<img width="1267" height="187" alt="image" src="https://github.com/user-attachments/assets/5e1e0dda-d797-4215-8216-49c4f80300e0" />
 
+Click on Edit to edit the basic settings
 
+Click on the role
 
+<img width="1503" height="708" alt="image" src="https://github.com/user-attachments/assets/0b208c18-e9e7-4203-9c18-0b81b5aa763a" />
 
+<img width="1210" height="252" alt="image" src="https://github.com/user-attachments/assets/fccc3fed-d418-428a-94b9-65c21b6da9bc" />
 
+<img width="1220" height="313" alt="image" src="https://github.com/user-attachments/assets/28d4228f-c7e9-438c-bfa3-566919b5024b" />
 
+### Triggers
 
+Use trigger to trigger the Lambda function.
 
+<img width="462" height="534" alt="image" src="https://github.com/user-attachments/assets/a91ebe0b-fdd1-4fa4-bd37-c47aacb98200" />
 
+## 118. API Gateway Overview
 
+<img width="879" height="203" alt="image" src="https://github.com/user-attachments/assets/e48b015e-ad3c-4856-9d86-cb86df0871f8" />
 
+## 119. AWS Batch Overview
 
+* A batch job has a star and end time as oppose to continuous
+* defined as a Docker images and run on Elastic Container Service (ECS)
+* Batch has no time limit
+* not serverless, relies on EC2 and EBS
 
+<img width="790" height="498" alt="image" src="https://github.com/user-attachments/assets/7238e01f-2065-4678-9137-0fc9fe234b9f" />
 
+## 120. Amazon Lightsail
 
+Designed for people who don't have limited Cloud experience.
 
+<img width="611" height="1123" alt="image" src="https://github.com/user-attachments/assets/67352074-166b-47af-859d-45a59cf4f073" />
 
+<img width="628" height="538" alt="image" src="https://github.com/user-attachments/assets/83f11433-0998-44d3-a2cd-fc60ddc805e0" />
 
+# Other Compute Services Quiz
 
+<img width="840" height="436" alt="image" src="https://github.com/user-attachments/assets/58646179-8007-475f-97c7-cb517c20de15" />
 
+<img width="836" height="537" alt="image" src="https://github.com/user-attachments/assets/e576dd67-65bd-48fb-b64b-716230b9e560" />
 
+<img width="845" height="534" alt="image" src="https://github.com/user-attachments/assets/3cedc64a-e2bb-46ad-86bb-1ae6e150976f" />
 
+<img width="831" height="482" alt="image" src="https://github.com/user-attachments/assets/d7077c3b-c139-48e8-9450-ca799deca948" />
 
+<img width="830" height="433" alt="image" src="https://github.com/user-attachments/assets/4091ae3e-842b-4d29-badd-9746ca8502ff" />
 
+<img width="833" height="485" alt="image" src="https://github.com/user-attachments/assets/780a929b-c39f-49e2-980f-a410c35e8ca1" />
 
+<img width="837" height="459" alt="image" src="https://github.com/user-attachments/assets/00ee980d-d0d5-4c89-9ff6-a3f6a967f960" />
 
+<img width="841" height="444" alt="image" src="https://github.com/user-attachments/assets/d43f826c-4b26-43a7-bc78-edb7d0d11b63" />
 
+<img width="842" height="554" alt="image" src="https://github.com/user-attachments/assets/b8faf415-8ccb-49fa-95de-32c7d165e89e" />
 
+<img width="845" height="457" alt="image" src="https://github.com/user-attachments/assets/9aa16025-690b-4dec-9894-62e97f2ba29c" />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<img width="828" height="387" alt="image" src="https://github.com/user-attachments/assets/be3e2f19-e497-4275-aaef-061400dcc444" />
