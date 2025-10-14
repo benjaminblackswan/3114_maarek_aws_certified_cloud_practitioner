@@ -108,7 +108,9 @@ find the stack > template > View in Infracstruture Composer
 ### CloudFormation vs. Beanstalk
 <img width="843" height="615" alt="image" src="https://github.com/user-attachments/assets/09a75b5f-7e96-4463-99fc-cb6cb5d802e3" />
 
-# 128. CodeDeploy Overview
+# 128. CodeDeploy
+
+CodeDeploy is a deployment service that automates application deployments to Amazon EC2 instances, on-premises instances, serverless Lambda functions, or Amazon ECS services.
 
 # 130. CodeCommit
 
@@ -178,17 +180,27 @@ secure storage for configuration and secrets
 
 <img width="1079" height="445" alt="image" src="https://github.com/user-attachments/assets/6b359fef-defe-42cf-b455-3dbdacec0a26" />
 
+# Quiz
 
+<img width="841" height="494" alt="image" src="https://github.com/user-attachments/assets/add6de6d-3e0c-42b2-b2bf-77ce5f55569b" />
 
+<img width="836" height="508" alt="image" src="https://github.com/user-attachments/assets/a1f8fb11-54d9-4423-9a86-ea03bb74db28" />
 
+<img width="826" height="504" alt="image" src="https://github.com/user-attachments/assets/db15b112-0285-49b7-82fc-500acdb755e6" />
 
+<img width="840" height="475" alt="image" src="https://github.com/user-attachments/assets/011a01c0-9cc8-42cd-899d-1989a7f26366" />
 
+<img width="828" height="456" alt="image" src="https://github.com/user-attachments/assets/3a872d4e-efc0-4133-bb89-7fda5df1e065" />
 
+<img width="820" height="460" alt="image" src="https://github.com/user-attachments/assets/fde6ad8a-30ed-4797-aa01-ecb56035b102" />
 
+<img width="836" height="462" alt="image" src="https://github.com/user-attachments/assets/91b3e11a-4756-4325-aa77-1e11842a6dfd" />
 
+<img width="841" height="485" alt="image" src="https://github.com/user-attachments/assets/3b5c11e9-9923-4fb5-ab9a-7a583c72f827" />
 
+<img width="829" height="477" alt="image" src="https://github.com/user-attachments/assets/916d7275-0933-42e6-b5ab-7d6fd7682ed7" />
 
-
+<img width="829" height="283" alt="image" src="https://github.com/user-attachments/assets/b96fc371-3302-4dc2-9f4e-f09c27467868" />
 
 
 
