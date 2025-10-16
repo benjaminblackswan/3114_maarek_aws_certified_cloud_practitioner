@@ -115,24 +115,62 @@ Server racks that offers the same AWS infrastruture on-prem
 
 <img width="130" height="188" alt="image" src="https://github.com/user-attachments/assets/a7795174-79f7-4b61-8393-165db71a34a4" />
 
+# 146. AWS WaveLength
+
+* Brings AWs services to the edge of the 5G networks.
+
+# 147. AWS Local Zones
+
+* places AWS compute, storage and database closer to end user.
+
+<img width="467" height="573" alt="image" src="https://github.com/user-attachments/assets/29c467d8-6e80-4402-92c2-6653b42686a5" />
+
+## AWS Local zones hands on
+
+Go to EC2 console, change region to Europe (Ireland)
+
+Then click on Zones
+
+<img width="373" height="334" alt="image" src="https://github.com/user-attachments/assets/f69624d3-9aeb-481c-86a6-260b70d6cf8e" />
+
+you can see there are three zones, as you can see there are only three AZ and no local zones (LZ).
+
+<img width="1142" height="292" alt="image" src="https://github.com/user-attachments/assets/46a1a0b1-2204-4c04-9296-32184d46eeb5" />
+
+Now try the same for N. Virginia
+
+<img width="1223" height="917" alt="image" src="https://github.com/user-attachments/assets/2e47da03-cfd9-4f71-8a9b-078a232fda64" />
+
+# 148. Global Applications Architecture
+
+* Single Region, Single AZ
+* Single Region, Multi AZ
+
+<img width="596" height="351" alt="image" src="https://github.com/user-attachments/assets/e43e405c-c1ba-4429-bb58-a1027827145b" />
+
+* multi region, active-passive
+* multi region, active-active
+
+<img width="537" height="514" alt="image" src="https://github.com/user-attachments/assets/07e4c908-bd20-4a8b-b73d-2db020cb472a" />
+
+# quiz
 
 
+<img width="838" height="464" alt="image" src="https://github.com/user-attachments/assets/924c4efc-0d93-48fa-99a9-2f644822ef5b" />
 
+<img width="838" height="416" alt="image" src="https://github.com/user-attachments/assets/3e7a36f9-c9fe-49f0-b0db-24bc42358fa8" />
 
+<img width="826" height="462" alt="image" src="https://github.com/user-attachments/assets/495b2859-2d05-48c9-852c-b65d3e29ef10" />
 
+<img width="840" height="465" alt="image" src="https://github.com/user-attachments/assets/65d9ad92-7da8-4ca4-974e-01539729fed1" />
 
+<img width="833" height="481" alt="image" src="https://github.com/user-attachments/assets/22952810-23c3-4e55-893c-2d84a7e35dc2" />
 
+<img width="846" height="460" alt="image" src="https://github.com/user-attachments/assets/f75adcdc-40ca-4185-ab5b-534ee72f5034" />
 
+<img width="827" height="427" alt="image" src="https://github.com/user-attachments/assets/f1ab0bce-07b9-4614-a461-847e3d208dc3" />
 
-
-
-
-
-
-
-
-
-
+<img width="845" height="482" alt="image" src="https://github.com/user-attachments/assets/c6e1acfa-17e4-43ec-8b83-fa2443cf40d3" />
 
 
 
