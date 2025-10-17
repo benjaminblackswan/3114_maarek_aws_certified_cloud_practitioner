@@ -37,31 +37,40 @@ where you store **Docker images**
 meaning that there is no need for dev to maintain servers
 
 
-# 116. Lambda Overview
+# 116. AWS Lambda
 
-<img width="569" height="434" alt="image" src="https://github.com/user-attachments/assets/053aee58-021f-4cca-856a-f57ee0dac2cb" />
+<img width="469" height="434" alt="image" src="https://github.com/user-attachments/assets/053aee58-021f-4cca-856a-f57ee0dac2cb" />
 
 * pay per request and compute time
 * event-driven: functions gets invoked when needed
 * up to 15 minutes runtime
+* Language support
+  - node.js
+  - python
+  - Java
+  - C# (.Net core and powershell)
+  - Ruby
 
-Lambda example 1: create a thumbnail for images uploaded to S3
+### AWS Lambda Examples
+
+**Lambda example 1: create a thumbnail for images**
 
 <img width="608" height="604" alt="image" src="https://github.com/user-attachments/assets/7e49d20e-1854-49a5-aacb-30d3c67ec137" />
 
 
-Lambda example 1: serverless CRON job
+
+**Lambda example 2: serverless CRON job**
 
 <img width="443" height="322" alt="image" src="https://github.com/user-attachments/assets/ec4e1f32-b67f-4805-a2e7-e08358924b1e" />
 
 lambda is very cheap and is based on calls and duration (compute time)
 
-# 117. Lambda Hands On
 
-visit https://ap-southeast-2.console.aws.amazon.com/lambda/home?region=ap-southeast-2#/begin to see demo of Lambda
 
-<img width="971" height="347" alt="image" src="https://github.com/user-attachments/assets/2b445b0d-9f32-4900-9224-6ed063df850d" />
 
+## 117. Lambda Hands On
+
+<img width="671" height="347" alt="image" src="https://github.com/user-attachments/assets/2b445b0d-9f32-4900-9224-6ed063df850d" />
 
 ## Create a Lambda function
 
